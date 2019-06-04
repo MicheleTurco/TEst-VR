@@ -7,14 +7,13 @@
     <a-scene embedded arjs>
       <a-marker preset="hiro">
       <a-entity gltf-model="url(iano%20pacifero.glb)"></a-entity>
-      <a-entity>
       <a-entity position="5 0 0"></a-entity>
       <a-animation attribute="rotation"
                dur="10000"
                fill="forwards"
                to="0 360 0"
-               repeat="indefinite"></a-animation>
-      </a-entity>
+               repeat="indefinite">
+      </a-animation>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
